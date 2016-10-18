@@ -511,6 +511,7 @@
         _bgImageView = [[UIImageView alloc]init];
         _bgImageView.contentMode = UIViewContentModeScaleAspectFill;
         _bgImageView.userInteractionEnabled = YES;
+        _bgImageView.clipsToBounds = YES;
     }
     return _bgImageView;
 }

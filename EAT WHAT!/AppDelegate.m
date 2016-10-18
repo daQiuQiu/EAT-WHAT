@@ -18,11 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    self.VC = [[ViewController alloc]init];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:self.VC];
-    nav.navigationBar.hidden = YES;
-    self.window.rootViewController = nav;
-    [self.window makeKeyAndVisible];
+//    self.VC = [[ViewController alloc]init];
+//    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:self.VC];
+//    nav.navigationBar.hidden = YES;
+//    self.window.rootViewController = nav;
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 

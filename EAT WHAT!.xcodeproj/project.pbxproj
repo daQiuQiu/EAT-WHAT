@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F695A491DAF3AA2003398A6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F695A481DAF3AA2003398A6 /* LoginViewController.m */; };
 		8F70358B1D990B600031E927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F70358A1D990B600031E927 /* Assets.xcassets */; };
 		8F70358E1D990FF40031E927 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F70358D1D990FF40031E927 /* DetailViewController.m */; };
 		8F7035911D99118B0031E927 /* PresentingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7035901D99118B0031E927 /* PresentingAnimationController.m */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		80E1BB586D5DD5261717F176 /* Pods-EAT WHAT!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT WHAT!.release.xcconfig"; path = "Pods/Target Support Files/Pods-EAT WHAT!/Pods-EAT WHAT!.release.xcconfig"; sourceTree = "<group>"; };
+		8F695A471DAF3AA2003398A6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8F695A481DAF3AA2003398A6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8F70358A1D990B600031E927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F70358C1D990FF40031E927 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8F70358D1D990FF40031E927 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				8F8182111D813535004E6140 /* AppDelegate.m */,
 				8F8182131D813535004E6140 /* ViewController.h */,
 				8F8182141D813535004E6140 /* ViewController.m */,
+				8F695A471DAF3AA2003398A6 /* LoginViewController.h */,
+				8F695A481DAF3AA2003398A6 /* LoginViewController.m */,
 				8F70358F1D99118B0031E927 /* PresentingAnimationController.h */,
 				8F7035901D99118B0031E927 /* PresentingAnimationController.m */,
 				8F7035921D9913720031E927 /* DismissingAnimationController.h */,
@@ -367,6 +372,7 @@
 				8F8182121D813535004E6140 /* AppDelegate.m in Sources */,
 				8F7035911D99118B0031E927 /* PresentingAnimationController.m in Sources */,
 				8F81820F1D813535004E6140 /* main.m in Sources */,
+				8F695A491DAF3AA2003398A6 /* LoginViewController.m in Sources */,
 				8F7035941D9913720031E927 /* DismissingAnimationController.m in Sources */,
 				8F70358E1D990FF40031E927 /* DetailViewController.m in Sources */,
 			);
